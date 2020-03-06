@@ -1,0 +1,52 @@
+.count{
+    padding-top: 30vh;
+    text-align: center;
+    font-size: 60px;
+    color: black;
+}
+
+
+
+.counter{
+    display: flex;
+    justify-content: row;
+    padding-top: 20vh;
+    padding-left: calc(50vw - 250px);
+    
+}
+
+.plus, .minus{
+    height: 100px;
+    width: 100px;
+    background-color: #A9A9A9;
+    border: #A9A9A9 1px solid;
+    border-radius: 25%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.plus p , .minus p{
+    text-align: center;
+    color: white;
+    
+    font-size: 35px;
+}
+
+.plus:hover, .minus:hover{
+    background-color: white;
+    color: #A9A9A9;
+}
+
+.plus:hover p, .minus:hover p{
+    color: #A9A9A9;
+}
+
+input{
+    height: 100px;
+    width: 200px;
+    border: #A9A9A9 3px solid;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 60px;
+
+}
